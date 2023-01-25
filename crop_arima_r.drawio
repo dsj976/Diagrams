@@ -1,16 +1,76 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="a7904f86-f2b4-8e86-fa97-74104820619b">
-        <mxGraphModel dx="2194" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+        <mxGraphModel dx="2024" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="24794b860abc3c2d-30" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-23" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;html=1;elbow=vertical;exitX=0;exitY=0.081;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.01;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-330" y="296" as="targetPoint"/>
+                        <mxPoint x="-330" y="67" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="-310" y="67"/>
+                            <mxPoint x="-460" y="67"/>
+                            <mxPoint x="-460" y="297"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="24794b860abc3c2d-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.25;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-18" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="9" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.003;exitY=0.149;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-313" y="360" as="targetPoint"/>
+                        <mxPoint x="-330" y="99" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="-430" y="230"/>
+                            <mxPoint x="-450" y="90"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="24794b860abc3c2d-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: getData.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: getStartEndDate&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function:&amp;nbsp; getStartDate&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: connectToDatabase&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: disconnectFromDatabase&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: printTables (not used)&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getTemperatureHumidityData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getEnergyData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: createHistoryData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: createLatestData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: createGivenDateData&lt;br&gt;&lt;hr&gt;&amp;nbsp; Outputs:&lt;br&gt;&lt;ul&gt;&lt;li&gt;variable: env_raw&lt;/li&gt;&lt;li&gt;variable: energy_raw&lt;/li&gt;&lt;/ul&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+                <mxCell id="10" style="edgeStyle=elbowEdgeStyle;html=1;exitX=-0.003;exitY=0.219;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.416;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-314" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-360" y="170"/>
+                            <mxPoint x="-360" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.419;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="10" y="290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="50" y="215"/>
+                            <mxPoint x="50" y="242"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.419;exitDx=0;exitDy=0;entryX=1.003;entryY=0.551;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="280" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="50" y="215"/>
+                            <mxPoint x="50" y="272"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.003;exitY=0.074;exitDx=0;exitDy=0;entryX=0;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-540" y="330" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-460" y="67"/>
+                            <mxPoint x="-460" y="330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.004;exitY=0.474;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-330" y="310" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-370" y="239"/>
+                            <mxPoint x="-370" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24794b860abc3c2d-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: getData.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: getStartEndDate&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function:&amp;nbsp; getStartDate&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: connectToDatabase&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: disconnectFromDatabase&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: printTables (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getTemperatureHumidityData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getEnergyData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: createHistoryData (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: createLatestData (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: createGivenDateData&lt;br&gt;&lt;hr&gt;&amp;nbsp; Outputs:&lt;br&gt;&lt;ul&gt;&lt;li&gt;variable: env_raw&lt;/li&gt;&lt;li&gt;variable: energy_raw&lt;/li&gt;&lt;/ul&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="-310" y="35" width="310" height="430" as="geometry"/>
                 </mxCell>
                 <mxCell id="24794b860abc3c2d-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.25;entryX=0;entryY=0.75;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="24794b860abc3c2d-16" target="24794b860abc3c2d-17" edge="1">
@@ -23,9 +83,6 @@
                 </mxCell>
                 <mxCell id="24794b860abc3c2d-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: may_live_functions.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field4 = value4&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field5 = value5&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field6 = value6&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field7 = value7&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field8 = value8&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
                     <mxGeometry x="-20" y="540" width="200" height="150" as="geometry"/>
-                </mxCell>
-                <mxCell id="24794b860abc3c2d-40" style="rounded=0;html=1;exitX=0;exitY=0.25;entryX=1;entryY=0.25;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="24794b860abc3c2d-17" target="24794b860abc3c2d-1" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="24794b860abc3c2d-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.25;entryX=0;entryY=0.25;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="24794b860abc3c2d-17" target="24794b860abc3c2d-19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -146,6 +203,17 @@
                 </mxCell>
                 <mxCell id="24794b860abc3c2d-29" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field4 = value4&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field5 = value5&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field6 = value6&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field7 = value7&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field8 = value8&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field9 = value9&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field10 = value10&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field11 = value11&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field12 = value12&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
                     <mxGeometry x="940" y="285" width="140" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.416;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-309.99999999999983" y="219.70999999999998" as="targetPoint"/>
+                        <mxPoint x="-309.99999999999983" y="134.99999999999994" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="-360" y="170"/>
+                            <mxPoint x="-359.07" y="175.82999999999998"/>
+                            <mxPoint x="-359.07" y="285.83000000000004"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
