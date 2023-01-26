@@ -244,11 +244,75 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="42" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: may_live_functions.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: constructLights&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;-&amp;gt; identifies likely time lights came on in the farm&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: fill_data_original (NOT USED)&lt;br&gt;&amp;nbsp; -&amp;gt; fills in missing data using typical values for time of year&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: make_pseudo_season&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: fill_data&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: fill_data_mean&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: runbsts_live&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: print_warning_message&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: sim_stats_bsts&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: sim_stats_arima&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: constructCov&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: constructCovTyp" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
+                <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.313;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.313;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.997;exitY=0.644;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="1080" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="150" y="905"/>
+                            <mxPoint x="150" y="1080"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.733;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="42" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="951"/>
+                            <mxPoint y="950"/>
+                            <mxPoint x="120" y="950"/>
+                            <mxPoint x="120" y="995"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.009;exitY=0.81;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-490" y="820" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-470" y="991"/>
+                            <mxPoint x="-470" y="820"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.808;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="42" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="110" y="990"/>
+                            <mxPoint x="110" y="1025"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="42" target="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-480" y="830" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-440" y="1038"/>
+                            <mxPoint x="-440" y="830"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.014;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.827;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-500" y="1000" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-400" y="1061"/>
+                            <mxPoint x="-400" y="1000"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.997;exitY=0.929;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="90" y="960" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: may_live_functions.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: constructLights&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;-&amp;gt; identifies likely time lights came on in the farm&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: fill_data_original (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&amp;nbsp; -&amp;gt; fills in missing data using typical values for time of month/year&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: make_pseudo_season&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: fill_data&lt;br&gt;&amp;nbsp; -&amp;gt; fills in missing data using typical values for time of month/year&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: fill_data_mean (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: runbsts_live (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: print_warning_message (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: sim_stats_bsts&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: sim_stats_arima&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: constructCov&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: constructCovTyp" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="-350" y="570" width="350" height="520" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: train.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: standardiseLatestTimestamp&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: getForecastTimestamp&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getOneYearDataUptoDate&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: standardiseObservations&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: splitTrainingTestData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: overrideTee&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getCurrentData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: setupModels&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: reportStats&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: runModelsForSensors&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getDaysPrediction" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" vertex="1" parent="1">
-                    <mxGeometry x="305" y="570" width="350" height="520" as="geometry"/>
+                <mxCell id="47" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: train.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: standardiseLatestTimestamp&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: getForecastTimestamp&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getOneYearDataUptoDate&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: standardiseObservations&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: splitTrainingTestData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: overrideTee&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getCurrentData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: setupModels&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;function: trainArima&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;function: forecastArima&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;function: runArimaPipeline&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;function: trainBSTS&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;function: forecastBSTS&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;function: runbstsPipeline&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: reportStats&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: runModelsForSensors&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getDaysPrediction" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="570" width="350" height="740" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: pushData.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: connectToDatabase&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: disconnectFromDatabase&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: printTables&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getPredictions&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeRun&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeRunTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeProductTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writePredictionTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" vertex="1" parent="1">
                     <mxGeometry x="900" y="570" width="350" height="520" as="geometry"/>
