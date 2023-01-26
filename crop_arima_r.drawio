@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="a7904f86-f2b4-8e86-fa97-74104820619b">
-        <mxGraphModel dx="2194" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+        <mxGraphModel dx="2486" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -127,7 +127,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1.003;exitY=0.912;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="24794b860abc3c2d-1" edge="1" target="29">
+                <mxCell id="30" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1.003;exitY=0.912;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="24794b860abc3c2d-1" target="29" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="280" y="200" as="targetPoint"/>
                         <Array as="points">
@@ -136,7 +136,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.972;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.479;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="24794b860abc3c2d-1" edge="1" target="29">
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.972;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.479;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="24794b860abc3c2d-1" target="29" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="290" y="240" as="targetPoint"/>
                         <Array as="points">
@@ -147,41 +147,6 @@
                 </mxCell>
                 <mxCell id="24794b860abc3c2d-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: getData.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: getStartEndDate&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function:&amp;nbsp; getStartDate&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: connectToDatabase&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: disconnectFromDatabase&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: printTables (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getTemperatureHumidityData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getEnergyData&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: createHistoryData (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: createLatestData (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: createGivenDateData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; Outputs:&lt;br&gt;&lt;ul&gt;&lt;li&gt;variable: env_raw -&amp;gt; raw T/RH data from DB&lt;/li&gt;&lt;li&gt;variable: energy_raw -&amp;gt; raw energy data from DB&lt;/li&gt;&lt;/ul&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="-310" y="35" width="310" height="430" as="geometry"/>
-                </mxCell>
-                <mxCell id="24794b860abc3c2d-22" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field4 = value4&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field5 = value5&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field6 = value6&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field7 = value7&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field8 = value8&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-                    <mxGeometry x="410" y="690" width="140" height="150" as="geometry"/>
-                </mxCell>
-                <mxCell id="24794b860abc3c2d-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.75;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;" parent="1" target="24794b860abc3c2d-27" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="740" y="475" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="24794b860abc3c2d-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.75;entryX=0;entryY=0.5;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;" parent="1" target="24794b860abc3c2d-28" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="740" y="525" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="24794b860abc3c2d-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.25;entryX=1;entryY=0.75;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="24794b860abc3c2d-25" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="550" y="600" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="24794b860abc3c2d-25" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field4 = value4&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field5 = value5&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field6 = value6&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field7 = value7&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field8 = value8&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-                    <mxGeometry x="600" y="665" width="140" height="150" as="geometry"/>
-                </mxCell>
-                <mxCell id="24794b860abc3c2d-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.75;entryX=0;entryY=0.25;labelBackgroundColor=none;endArrow=none;endFill=0;endSize=8;fontFamily=Verdana;fontSize=12;align=left;" parent="1" target="24794b860abc3c2d-29" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="910" y="282.5" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="24794b860abc3c2d-27" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field4 = value4&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-                    <mxGeometry x="770" y="375" width="140" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="24794b860abc3c2d-28" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field4 = value4&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field5 = value5&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-                    <mxGeometry x="770" y="535" width="140" height="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="24794b860abc3c2d-29" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:Type&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field4 = value4&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field5 = value5&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field6 = value6&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field7 = value7&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field8 = value8&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field9 = value9&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field10 = value10&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field11 = value11&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;field12 = value12&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-                    <mxGeometry x="940" y="285" width="140" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.416;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="24794b860abc3c2d-1" target="24794b860abc3c2d-1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -194,7 +159,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.009;exitY=0.084;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.014;entryY=0.291;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="29" edge="1" target="29">
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.009;exitY=0.084;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.014;entryY=0.291;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="29" target="29" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="290" y="160" as="targetPoint"/>
                         <Array as="points">
@@ -251,8 +216,42 @@
                 <mxCell id="29" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: cleanData.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: delete.na&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: decimal_hour&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: hourly_av_sensor&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: cleanEnvData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: cleanEnergyData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;Outputs:&lt;br&gt;&lt;ul&gt;&lt;li&gt;variable: t_ee -&amp;gt; dataframe containing processed T/RH&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;and energy data defined on the same time vector" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="305" y="35" width="350" height="430" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: may_live_functions.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: constructLights&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: fill_data_original&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: make_pseudo_season&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: fill_data&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: fill_data_mean&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: runbsts_live&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: print_warning_message&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: sim_stats_bsts&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: sim_stats_arima&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: constructCov&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: constructCovTyp" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
+                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.011;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-354" y="650" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-440" y="603"/>
+                            <mxPoint x="-440" y="650"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.003;exitY=0.065;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.404;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-360" y="780" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-440" y="604"/>
+                            <mxPoint x="-440" y="780"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=-0.011;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-360" y="730" as="targetPoint"/>
+                        <mxPoint x="-350" y="690" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="-380" y="690"/>
+                            <mxPoint x="-380" y="730"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: may_live_functions.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: constructLights&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;-&amp;gt; identifies likely time lights came on in the farm&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: fill_data_original (NOT USED)&lt;br&gt;&amp;nbsp; -&amp;gt; fills in missing data using typical values for time of year&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: make_pseudo_season&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: fill_data&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: fill_data_mean&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: runbsts_live&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: print_warning_message&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: sim_stats_bsts&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: sim_stats_arima&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: constructCov&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: constructCovTyp" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="-350" y="570" width="350" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: train.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: standardiseLatestTimestamp&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: getForecastTimestamp&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getOneYearDataUptoDate&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: standardiseObservations&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: splitTrainingTestData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: overrideTee&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getCurrentData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: setupModels&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: reportStats&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: runModelsForSensors&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getDaysPrediction" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="570" width="350" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: pushData.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: connectToDatabase&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: disconnectFromDatabase&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: printTables&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getPredictions&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeRun&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeRunTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeProductTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writePredictionTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="900" y="570" width="350" height="520" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
