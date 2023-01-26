@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="a7904f86-f2b4-8e86-fa97-74104820619b">
-        <mxGraphModel dx="2486" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1647" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -213,10 +213,19 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="29" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="1280" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="780" y="358"/>
+                            <mxPoint x="780" y="1280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="29" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: cleanData.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: delete.na&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: decimal_hour&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: hourly_av_sensor&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: cleanEnvData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: cleanEnergyData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp;&amp;nbsp;Outputs:&lt;br&gt;&lt;ul&gt;&lt;li&gt;variable: t_ee -&amp;gt; dataframe containing processed T/RH&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;and energy data defined on the same time vector" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="305" y="35" width="350" height="430" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.011;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="42">
+                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.011;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="42" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-354" y="650" as="targetPoint"/>
                         <Array as="points">
@@ -225,7 +234,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.003;exitY=0.065;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.404;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="42">
+                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.003;exitY=0.065;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.404;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="42" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-360" y="780" as="targetPoint"/>
                         <Array as="points">
@@ -234,7 +243,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="46" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=-0.011;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="42">
+                <mxCell id="46" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=-0.011;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-360" y="730" as="targetPoint"/>
                         <mxPoint x="-350" y="690" as="sourcePoint"/>
@@ -244,12 +253,12 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.313;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="47">
+                <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.313;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="42" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="240" y="700" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.997;exitY=0.644;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="42">
+                <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.997;exitY=0.644;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="300" y="1080" as="targetPoint"/>
                         <Array as="points">
@@ -258,7 +267,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.733;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="42" target="47">
+                <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.733;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="42" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint y="951"/>
@@ -268,7 +277,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="53" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.009;exitY=0.81;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="42">
+                <mxCell id="53" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.009;exitY=0.81;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="42" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-490" y="820" as="targetPoint"/>
                         <Array as="points">
@@ -277,7 +286,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.808;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="42" target="47">
+                <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.808;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="42" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="110" y="990"/>
@@ -285,7 +294,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="55" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="42" target="42">
+                <mxCell id="55" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="42" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-480" y="830" as="targetPoint"/>
                         <Array as="points">
@@ -294,7 +303,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.014;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.827;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="42">
+                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.014;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.827;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="42" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-500" y="1000" as="targetPoint"/>
                         <Array as="points">
@@ -303,7 +312,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.997;exitY=0.929;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="47">
+                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.997;exitY=0.929;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="42" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="90" y="960" as="targetPoint"/>
                     </mxGeometry>
@@ -311,7 +320,7 @@
                 <mxCell id="42" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: may_live_functions.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: constructLights&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;-&amp;gt; identifies likely time lights came on in the farm&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: fill_data_original (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&amp;nbsp; -&amp;gt; fills in missing data using typical values for time of month/year&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: make_pseudo_season&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: fill_data&lt;br&gt;&amp;nbsp; -&amp;gt; fills in missing data using typical values for time of month/year&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: fill_data_mean (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: runbsts_live (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: print_warning_message (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: sim_stats_bsts&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: sim_stats_arima&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: constructCov&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: constructCovTyp" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="-350" y="570" width="350" height="520" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.006;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="47" target="47">
+                <mxCell id="72" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.006;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="47" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="220" y="860" as="targetPoint"/>
                         <Array as="points">
@@ -321,7 +330,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="73" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.003;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.014;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="47" target="47">
+                <mxCell id="73" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.003;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.014;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="47" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="150" y="755" as="targetPoint"/>
                         <Array as="points">
@@ -330,7 +339,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="74" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.165;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="47" target="47">
+                <mxCell id="74" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.165;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="47" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="680" y="860" as="targetPoint"/>
                         <Array as="points">
@@ -339,7 +348,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="75" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1.014;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.216;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="47" target="47">
+                <mxCell id="75" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1.014;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.216;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="47" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="750" y="880" as="targetPoint"/>
                         <mxPoint x="660" y="730" as="sourcePoint"/>
@@ -349,10 +358,37 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="47" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: train.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: standardiseLatestTimestamp&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: getForecastTimestamp&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getOneYearDataUptoDate&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: standardiseObservations&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: splitTrainingTestData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: overrideTee&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getCurrentData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: setupModels&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;br&gt;&amp;nbsp;---- function: trainArima ----------------------------------------------------&lt;br&gt;&lt;br&gt;&amp;nbsp;---- function: forecastArima -----------------------------------------------&lt;br&gt;&lt;br&gt;&amp;nbsp;---- function: runArimaPipeline --------------------------------------------&lt;br&gt;&lt;br&gt;&amp;nbsp;---- function: trainBSTS -----------------------------------------------------&lt;br&gt;&lt;br&gt;&amp;nbsp;---- function: forecastBSTS ------------------------------------------------&lt;br&gt;&lt;br&gt;&amp;nbsp;---- function: runbstsPipeline ----------------------------------------------&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: reportStats&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: runModelsForSensors&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getDaysPrediction" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" vertex="1" parent="1">
+                <mxCell id="76" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.003;exitY=0.281;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.796;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="47" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="1160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="240" y="778"/>
+                            <mxPoint x="240" y="1160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="47" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="990" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="700" y="940"/>
+                            <mxPoint x="700" y="990"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.009;exitY=0.531;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="47" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="1000" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="190" y="963"/>
+                            <mxPoint x="190" y="1001"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: train.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: standardiseLatestTimestamp&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: getForecastTimestamp&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getOneYearDataUptoDate&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: standardiseObservations&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: splitTrainingTestData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: overrideTee (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getCurrentData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: setupModels&lt;br&gt;&amp;nbsp;-------------------------------------------------------------------------------------&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;function: trainArima&lt;br&gt;&amp;nbsp;-------------------------------------------------------------------------------------&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;function: forecastArima&lt;br&gt;&amp;nbsp;-------------------------------------------------------------------------------------&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;function: runArimaPipeline&lt;br&gt;&amp;nbsp;-------------------------------------------------------------------------------------&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;function: trainBSTS&lt;br&gt;&amp;nbsp;-------------------------------------------------------------------------------------&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;function: forecastBSTS&lt;br&gt;&amp;nbsp;-------------------------------------------------------------------------------------&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;function: runbstsPipeline&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: reportStats&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: runModelsForSensors&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getDaysPrediction&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; Outputs:&lt;br&gt;&lt;ul&gt;&lt;li&gt;currentData = getCurrentData(t_ee)&lt;/li&gt;&lt;li&gt;runModelsForSensors&lt;/li&gt;&lt;/ul&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="305" y="570" width="350" height="740" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.009;exitY=0.071;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.009;exitY=0.071;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1300" y="730" as="targetPoint"/>
                         <Array as="points">
@@ -361,7 +397,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.071;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.404;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.071;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.404;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1270" y="700" as="targetPoint"/>
                         <Array as="points">
@@ -370,7 +406,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.146;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.011;entryY=0.348;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.146;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.011;entryY=0.348;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1290" y="750" as="targetPoint"/>
                         <Array as="points">
@@ -379,7 +415,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="61" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.146;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.009;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="61" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.146;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.009;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1280" y="800" as="targetPoint"/>
                         <Array as="points">
@@ -388,7 +424,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="62" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.003;exitY=0.319;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="62" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.003;exitY=0.319;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="780" y="820" as="targetPoint"/>
                         <Array as="points">
@@ -397,7 +433,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="63" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.402;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="63" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.402;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="890" y="910" as="targetPoint"/>
                         <Array as="points">
@@ -408,7 +444,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="64" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.006;exitY=0.402;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.729;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="64" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.006;exitY=0.402;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.729;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="880" y="950" as="targetPoint"/>
                         <Array as="points">
@@ -418,7 +454,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="65" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.006;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.808;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="65" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=-0.006;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.808;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="800" y="1010" as="targetPoint"/>
                         <Array as="points">
@@ -427,16 +463,16 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.567;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="47">
+                <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.567;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.009;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="710" y="830" as="targetPoint"/>
+                        <mxPoint x="680" y="1000" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="750" y="865"/>
-                            <mxPoint x="750" y="993"/>
+                            <mxPoint x="750" y="1003"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="67" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.569;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="47">
+                <mxCell id="67" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.569;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="720" y="830" as="targetPoint"/>
                         <Array as="points">
@@ -445,7 +481,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="68" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.644;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.006;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="68" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.644;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.006;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1260" y="870" as="targetPoint"/>
                         <Array as="points">
@@ -454,7 +490,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="69" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="69" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1260" y="860" as="targetPoint"/>
                         <Array as="points">
@@ -463,7 +499,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="71" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.011;exitY=0.819;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="48">
+                <mxCell id="71" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.011;exitY=0.819;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="48" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1254" y="890" as="targetPoint"/>
                         <Array as="points">
@@ -472,7 +508,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="48" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: pushData.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: connectToDatabase&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: disconnectFromDatabase&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: printTables (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getPredictions (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeRun&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeRunTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeProductTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writePredictionTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" vertex="1" parent="1">
+                <mxCell id="48" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: pushData.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: connectToDatabase&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: disconnectFromDatabase&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: printTables (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getPredictions (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeRun&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeRunTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeProductTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writePredictionTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="900" y="570" width="350" height="520" as="geometry"/>
                 </mxCell>
             </root>
