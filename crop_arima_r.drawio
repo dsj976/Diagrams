@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="a7904f86-f2b4-8e86-fa97-74104820619b">
-        <mxGraphModel dx="1913" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+        <mxGraphModel dx="2276" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -439,7 +439,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1">
+                <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="339.97" y="1295" as="targetPoint"/>
                         <mxPoint x="329.97" y="1280" as="sourcePoint"/>
@@ -448,6 +448,16 @@
                             <mxPoint x="310" y="1300"/>
                             <mxPoint x="330" y="1300"/>
                             <mxPoint x="330" y="1295"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.43;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="47" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="1290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="888"/>
+                            <mxPoint x="180" y="1290"/>
+                            <mxPoint x="260" y="1290"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -577,7 +587,7 @@
                 <mxCell id="48" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Module: pushData.R&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;function: connectToDatabase&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp; function: disconnectFromDatabase&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: printTables (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeData&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: getPredictions (&lt;b&gt;NOT USED&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeRun&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeRunTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writeProductTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp; function: writePredictionTable&lt;br&gt;&lt;br&gt;&lt;hr&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="900" y="570" width="350" height="520" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1">
+                <mxCell id="88" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="329.97" y="1305" as="targetPoint"/>
                         <mxPoint x="330" y="1280" as="sourcePoint"/>
